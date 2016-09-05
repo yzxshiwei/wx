@@ -38,4 +38,8 @@ class Welcome extends CI_Controller {
 		);
 		echo json_encode($arr); 
 	}
+
+	public function aaa(){
+		time();
+	}
 }
