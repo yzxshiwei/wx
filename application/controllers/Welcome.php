@@ -30,4 +30,12 @@ class Welcome extends CI_Controller {
 		);
 		echo json_encode($arr);
 	}
+
+	public function love(){
+		$arr = array(
+			'status'=>'success',
+			'data' => 'I love you!'
+		);
+		echo json_encode($arr); 
+	}
 }
