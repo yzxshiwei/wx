@@ -40,6 +40,6 @@ class Welcome extends CI_Controller {
 	}
 
 	public function aaa(){
-		
+		time();
 	}
 }
