@@ -22,4 +22,20 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+
+	public function test(){
+		$arr = array(
+			'status'=>'success',
+			'data' => 'Hello World'
+		);
+		echo json_encode($arr);
+	}
+
+	public function love(){
+		$arr = array(
+			'status'=>'success',
+			'data' => 'I love you!'
+		);
+		echo json_encode($arr); 
+	}
 }
